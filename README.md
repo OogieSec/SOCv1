@@ -1,8 +1,8 @@
 # SOC Home Lab
 
-This SOC Home Lab is intended to provide a workspace for me to simulate and experiment with security solutions before deploying them in production environments. 
+This SOC Home Lab is designed as a dedicated environment for me to simulate, test, and refine security solutions prior to their deployment in production.
 
-This lab will consist of five virtual machines running on VirtualBox and each will provide a specific task. <br>
+The lab comprises five virtual machines running on VirtualBox, each configured to perform a distinct role within the security operations workflow. <br>
 - pfSense Router (192.168.1.1): Serves as the network gateway, routing traffic from the WAN port into VirtualBox’s internal network. It runs a firewall and IDS/IPS powered by Snort, supports VPN management, and can create a DMZ to isolate and protect internal systems.
 - Ubuntu Server (192.168.1.25): Runs Wazuh SIEM/XDR for centralized security operations management, serving as the primary system overseeing the Security Operations Center (SoC)
 - Fedora Server (192.168.1.42): A honeypot server emulating multiple services to attract potential threats, with all captured traffic forwarded to the Wazuh server for analysis.
