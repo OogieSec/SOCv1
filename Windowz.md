@@ -30,6 +30,6 @@ Step 1: Enable SMB
 
 7. Allow public folder sharing → On
 
-💡 Tip: If you don’t see "Private network," make sure your network profile is set to Private:
+*If you don’t see "Private network," make sure your network profile is set to Private:
 
 - Go to Settings → Network & Internet → Wi-Fi / Ethernet → select your connection → set Network profile to Private.
