@@ -1,6 +1,6 @@
 # Configuration for Windows Machine
 -	Setting up the Wazuh Agent<br>
--  Attacking Mysql Service
+
 # Setting up the Wazuh Agent
 - After successful installation and initial update, head over to https://UBUNTU_IP to access the Wazuh Dashboard
 - Open the left side bar, expand the Agents management view
