@@ -15,11 +15,10 @@ Logical Processors 	8<br>
 Memory	16 GB DDR4<br>
 Storage Space	1tb SSD
 
-# Features
 
-Intelligent XDR: Wazuh detects malware and instantly removes it<br>
-Next Generation Router: pfSense<br>
-Web Security: Wazuh detects any and all kinds of SQL attacks/ Arbitrary Input against web application<br>
-Robust Honeypot: OpenCanary detects any interaction with the fake services and alerts Wazuh Server, which you can then hook into mail<br>
-Red Team Campaigns: Run automated scripts via Metasploit to perform Adversarial Campaigns
-
+# Tools<br>
+Attacker - Kali Linux<br>
+Firewall - pfSense<br>
+IDS - Snort<br>
+SIEM - Wazuh<br>
+Hypervisor - VMWare/Virtualbox<br>
