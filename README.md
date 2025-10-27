@@ -1,11 +1,4 @@
 ## SOC Home Lab
-
-Processor	Intel i5<br>
-Logical Processors 	4<br>
-Memory	16 GB DDR4<br>
-Storage Space	237 gb SSD
-
-# Current Setup:<br>
 pfSense Router + Snort (IDS/IPS)<br>
 Ubuntu - Sec Op Node (Wazuh SIEM)<br>
 Windows 11 - User Device Sim (Sysmon + Wazuh Agent)<br>
@@ -21,3 +14,9 @@ The lab comprises five virtual machines running on VirtualBox, each configured t
 - <a href="https://fedoraproject.org/"><img src="https://img.shields.io/badge/Fedora-294172?logo=fedora&logoColor=white" /></a> Server (**192.168.1.42**): A honeypot server emulating multiple services to attract potential threats, with all captured traffic forwarded to the Wazuh server for analysis.
 - <a href="https://www.microsoft.com/en-us/software-download/windows11"><img src="https://img.shields.io/badge/Windows%2011-0078D6?logo=windows&logoColor=white" /></a> Machine (**192.168.1.11**): Simulates an endpoint device, runs malware detection tools, and forwards security events to the SIEM for analysis.
 - <a href="https://www.kali.org/"><img src="https://img.shields.io/badge/Kali_Linux-557C94?logo=linux&logoColor=white&style=for-the-badge" /></a> Machine (**192.168.1.8**): Adversary simulation system used to execute attack campaigns and evaluate detection capabilities.
+
+# Hardware:<br>
+Processor	Intel i5<br>
+Logical Processors 	4<br>
+Memory	16 GB DDR4<br>
+Storage Space	237 gb SSD
