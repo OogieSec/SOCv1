@@ -16,9 +16,9 @@ Memory	16 GB DDR4<br>
 Storage Space	237 gb SSD
 
 # Current Setup:<br>
-pfSense Router (192.168.1.1) + Snort (IDS/IPS)<br>
-Ubuntu (192.168.1.25)- Sec Op Node (Wazuh SIEM)<br>
-Windows 11 (192.168.1.11) - User Device Sim (Sysmon + Wazuh Agent)<br>
-Kali Linux (192.168.1.8) - (Attack simulation & testing)<br>
-Fedora (192.168.1.42) - Honeypot (fakes ftp, http, etc) <br>
+pfSense Router + Snort (IDS/IPS)<br>
+Ubuntu - Sec Op Node (Wazuh SIEM)<br>
+Windows 11 - User Device Sim (Sysmon + Wazuh Agent)<br>
+Kali Linux - (Attack simulation & testing)<br>
+Fedora - Honeypot (fakes ftp, http, etc) <br>
 🚨🔧💻🖥️🔌🌐🛡️💡📦🤖🖥️🧱🔍🎯
