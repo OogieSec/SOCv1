@@ -1,4 +1,4 @@
-## SOC Home Lab
+# SOC Home Lab
 
 💻Hardware:<br>
 Processor	Intel i5<br>
@@ -6,6 +6,7 @@ Logical Processors 	4<br>
 Memory	16 GB DDR4<br>
 Storage Space	237 gb SSD
 
+# Configuration
 pfSense Router + Snort (IDS/IPS)<br>
 Ubuntu - Sec Op Node (Wazuh SIEM)<br>
 Windows 11 - User Device Sim (Sysmon + Wazuh Agent)<br>
