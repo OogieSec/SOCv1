@@ -1,4 +1,4 @@
-# SOC Home Lab
+# 🛡️SOC Home Lab🛡️
 HomeLab Setup with a Firewall, SIEM Solution, Exploitable machines and an Attacker.
 The lab comprises five virtual machines running on VirtualBox, each configured to perform a distinct role within the security operations workflow. <br>
 
@@ -14,7 +14,7 @@ Ubuntu - Sec Op Node (Wazuh SIEM)<br>
 Windows 11 - User Device Sim (Sysmon + Wazuh Agent)<br>
 Kali Linux - (Attack simulation & testing)<br>
 Fedora - Honeypot (fakes ftp, http, etc) <br>
-🚨🔧🖥️🔌🌐🛡️💡📦🤖🖥️🧱🔍🎯
+🚨🔧🖥️🔌🌐💡📦🤖🖥️🧱🔍🎯
 
 
 - <a href="https://www.pfsense.org/"><img src="https://img.shields.io/badge/pfSense-394B5A?logo=pfsense&logoColor=white" /></a> Router (**192.168.1.1**): Serves as the network gateway, routing traffic from the WAN port into VirtualBox’s internal network. It runs a firewall and IDS/IPS powered by Snort, supports VPN management, and can create a DMZ to isolate and protect internal systems.
