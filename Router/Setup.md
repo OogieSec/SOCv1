@@ -1,9 +1,9 @@
-# Next Gen pfSense Router
+# 🌐 Next Gen pfSense Router
 
 >   This setup establishes a functional pfSense firewall with Snort intrusion detection/prevention capabilities for monitoring and securing network traffic.
 
-# Summary Report: pfSense Setup and Snort IDS/IPS Setup<br>
-1. pfSense Virtual Machine Setup (Virtual Box)<br>
+# 💡Summary Report: pfSense Setup and Snort IDS/IPS Setup<br>
+🧱 pfSense Virtual Machine Setup (Virtual Box)<br>
 Virtual Machine Creation:<br>
 •	Created a new VM in Virtual Box named pfSense.<br>
 •	Selected Type: BSD, Version: FreeBSD (64-bit).<br>
@@ -22,7 +22,7 @@ Web Interface Configuration:<br>
 •	Default login used: --- / ----.<br>
 •	Completed the initial configuration using the setup wizard.<br>
 ________________________________________
-2. Snort IDS/IPS Installation and Configuration<br>
+🔍Snort IDS/IPS Installation and Configuration<br>
 Snort Installation:<br>
 •	Accessed the pfSense web interface and navigated to System > Package Manager.<br>
 •	Searched for and installed the Snort package.<br>
@@ -42,4 +42,3 @@ o	Adjusted additional interface-specific settings as needed.<br>
 Service Activation and Monitoring:<br>
 •	Started the Snort service on the WAN interface.<br>
 •	Monitored alerts via the Alerts tab to detect and analyze potential threats.<br>
-________________________________________<br>
