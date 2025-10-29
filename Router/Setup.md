@@ -1,6 +1,6 @@
-# Next Gen Router
-________________________________________
-This setup establishes a functional pfSense firewall with Snort intrusion detection/prevention capabilities for monitoring and securing network traffic.
+# Next Gen pfSense Router
+
+>   This setup establishes a functional pfSense firewall with Snort intrusion detection/prevention capabilities for monitoring and securing network traffic.
 
 # Summary Report: pfSense Setup and Snort IDS/IPS Setup<br>
 1. pfSense Virtual Machine Setup (Virtual Box)<br>
